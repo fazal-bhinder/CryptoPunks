@@ -1,6 +1,6 @@
 # CryptoPunks Marketplace
 
-[CryptoPunks](https://cryptopunks.app/public/images/cryptopunks/punks/1.png)
+Live: [CryptoPunks](https://cryptopunks.app/public/images/cryptopunks/punks/1.png)
 
 A modern, responsive web application showcasing CryptoPunks NFT marketplace built with Next.js, React, TypeScript, and Tailwind CSS.
 
