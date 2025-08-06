@@ -1,4 +1,3 @@
-/** @file HeroSection.tsx */
 'use client';
 import { motion } from 'framer-motion';
 import AvatarRow from './AvatarRow';
@@ -31,7 +30,7 @@ const HeroSection = () => {
   const punkAvatars = [1, 2, 3, 4, 5, 6, 7, 8];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black mt-10 md:mt-5">
       {/* Background Grid */}
       <div className="absolute inset-0 bg-black" />
       
@@ -56,10 +55,6 @@ const HeroSection = () => {
           }}
         />
       ))}
-
-      {/* Gradient Orbs */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-white/3 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
 
       {/* Main Content */}
       <motion.div

@@ -1,4 +1,3 @@
-/** @file SaleCard.tsx */
 import PunkAvatar from './PunkAvatar';
 
 interface Sale {

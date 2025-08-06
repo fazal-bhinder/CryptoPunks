@@ -1,18 +1,16 @@
-/** @file page.tsx */
 'use client';
 import React, { useState } from 'react';
 import { useScroll, useTransform } from 'framer-motion';
 
-import Navigation from '@/components/Navigation';
-import HeroSection from '@/components/HeroSection';
-import AvatarRow from '@/components/AvatarRow';
-import MeetThePunks from '@/components/MeetThePunks';
-import LargestSales from '@/components/LargestSales';
-import HowToGetPunk from '@/components/HowToGetPunk';
-import FAQ from '@/components/FAQ';
-import Footer from '@/components/Footer';
-import FeaturedSection from '@/components/FeaturedSection';
-import RecentTransactions from '@/components/RecentTransactions';
+import Navigation from '@/app/components/Navigation';
+import HeroSection from '@/app/components/HeroSection';
+import MeetThePunks from '@/app/components/MeetThePunks';
+import LargestSales from '@/app/components/LargestSales';
+import HowToGetPunk from '@/app/components/HowToGetPunk';
+import FAQ from '@/app/components/FAQ';
+import Footer from '@/app/components/Footer';
+import FeaturedSection from '@/app/components/FeaturedSection';
+import RecentTransactions from '@/app/components/RecentTransactions';
 
 const salesData = [
   { punk: '3100', price: '4.2K Ξ ($7.58M)', date: 'Mar 11, 2021', id: 2 },

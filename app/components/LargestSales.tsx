@@ -1,4 +1,3 @@
-/** @file LargestSales.tsx */
 'use client';
 import { motion } from 'framer-motion';
 import SaleCard from './SaleCard';

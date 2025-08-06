@@ -1,4 +1,3 @@
-/** @file TransactionCard.tsx */
 import PunkAvatar from './PunkAvatar';
 
 interface Transaction {

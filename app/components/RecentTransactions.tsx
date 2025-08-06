@@ -1,4 +1,3 @@
-/** @file RecentTransactions.tsx */
 'use client';
 import { motion } from 'framer-motion';
 import TransactionCard from './TransactionCard';

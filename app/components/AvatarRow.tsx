@@ -1,4 +1,3 @@
-/** @file AvatarRow.tsx */
 'use client';
 import { motion } from 'framer-motion';
 import PunkAvatar from './PunkAvatar';
