@@ -91,7 +91,7 @@ const Footer = () => (
             </svg>
           </motion.a>
           <motion.a 
-            href="https://github.com/fazal-bhinder" 
+            href="https://github.com/fazal-bhinder/CryptoPunks" 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ 
@@ -195,7 +195,7 @@ const Footer = () => (
             </svg>
           </motion.a>
           <motion.a 
-            href="https://github.com/fazal-bhinder" 
+            href="https://github.com/fazal-bhinder/CryptoPunks" 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ 

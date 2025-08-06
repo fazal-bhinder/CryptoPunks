@@ -121,7 +121,7 @@ const Navigation = () => {
                 </svg>
               </motion.a>
               <motion.a 
-                href="https://github.com/fazal-bhinder" 
+                href="https://github.com/fazal-bhinder/CryptoPunks" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/70 hover:text-white transition-all duration-200"
@@ -221,7 +221,7 @@ const Navigation = () => {
                   </svg>
                 </motion.a>
                 <motion.a
-                  href="https://github.com/fazal-bhinder"
+                  href="https://github.com/fazal-bhinder/CryptoPunks"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-2xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-xl transition-colors duration-200"
