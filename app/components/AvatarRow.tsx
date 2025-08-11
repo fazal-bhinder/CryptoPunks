@@ -7,7 +7,6 @@ interface AvatarRowProps {
 }
 
 const AvatarRow = ({ punkAvatars }: AvatarRowProps) => {
-  // Create a longer array for infinite scroll effect
   const extendedAvatars = [...punkAvatars, ...punkAvatars, ...punkAvatars];
 
   return (
@@ -33,7 +32,7 @@ const AvatarRow = ({ punkAvatars }: AvatarRowProps) => {
           <motion.div
             className="flex space-x-6"
             animate={{
-              x: [0, -((120 + 24) * punkAvatars.length)], // 120px width + 24px gap
+              x: [0, -((120 + 24) * punkAvatars.length)],
             }}
             transition={{
               x: {
