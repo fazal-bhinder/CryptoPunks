@@ -51,12 +51,14 @@ A modern, responsive web application showcasing CryptoPunks NFT marketplace buil
 ### Installation
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/yourusername/cryptopunks-marketplace.git
    cd cryptopunks-marketplace
    ```
 
 2. Install dependencies
+
    ```bash
    npm install
    # or
@@ -64,6 +66,7 @@ A modern, responsive web application showcasing CryptoPunks NFT marketplace buil
    ```
 
 3. Run the development server
+
    ```bash
    npm run dev
    # or

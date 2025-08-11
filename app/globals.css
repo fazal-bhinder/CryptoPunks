@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.pixelated { image-rendering: pixelated; image-rendering: crisp-edges; }
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
 
-.section-black { background-color: #000; color: #fff; }
-.section-white { background-color: #fff; color: #000; }
+.section-black {
+  background-color: #000;
+  color: #fff;
+}
+.section-white {
+  background-color: #fff;
+  color: #000;
+}
 
 .avatar-strip {
   margin-top: -4rem;
   overflow-x: auto;
   overflow-y: hidden;
 }
-.avatar-strip::-webkit-scrollbar { display: none; }
+.avatar-strip::-webkit-scrollbar {
+  display: none;
+}

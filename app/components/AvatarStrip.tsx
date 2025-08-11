@@ -1,7 +1,9 @@
-'use client'
-import PunkAvatar from './PunkAvatar';
+"use client";
+import PunkAvatar from "./PunkAvatar";
 
-interface Props { punkAvatars: number[]; }
+interface Props {
+  punkAvatars: number[];
+}
 
 const AvatarStrip = ({ punkAvatars }: Props) => (
   <div className="avatar-strip flex justify-center space-x-4 px-4">

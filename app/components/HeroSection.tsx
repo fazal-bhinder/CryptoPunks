@@ -1,6 +1,6 @@
-'use client';
-import { motion } from 'framer-motion';
-import AvatarRow from './AvatarRow';
+"use client";
+import { motion } from "framer-motion";
+import AvatarRow from "./AvatarRow";
 
 const HeroSection = () => {
   const containerVariants = {
@@ -33,7 +33,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black mt-10 md:mt-5">
       {/* Background Grid */}
       <div className="absolute inset-0 bg-black" />
-      
+
       {/* Floating Elements */}
       {floatingElements.map((i) => (
         <motion.div
@@ -63,15 +63,16 @@ const HeroSection = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.div variants={itemVariants} className="inline-flex items-center">
-        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="inline-flex items-center"
+        ></motion.div>
 
         {/* Main Heading */}
         <motion.h1
           variants={itemVariants}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 leading-none"
         >
-
           <br />
           <span className="relative">
             <span className="bg-gradient-to-r from-white via-white to-gray-100 bg-clip-text text-transparent font-black font-serif tracking-tight">
@@ -99,16 +100,28 @@ const HeroSection = () => {
         {/* Description */}
         <motion.div variants={itemVariants} className="mb-12">
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed max-w-3xl mx-auto font-light">
-            <span className="text-white/90 font-medium">10,000 unique</span> collectible characters with 
-            <span className="text-white/90 font-medium"> proof of ownership</span> stored
+            <span className="text-white/90 font-medium">10,000 unique</span>{" "}
+            collectible characters with
+            <span className="text-white/90 font-medium">
+              {" "}
+              proof of ownership
+            </span>{" "}
+            stored
           </p>
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed max-w-3xl mx-auto font-light mt-2">
-            on the <span className="text-white/90 font-medium">Ethereum blockchain</span>.
+            on the{" "}
+            <span className="text-white/90 font-medium">
+              Ethereum blockchain
+            </span>
+            .
           </p>
         </motion.div>
 
         {/* CTA Buttons */}
-        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center justify-center gap-6">
+        <motion.div
+          variants={itemVariants}
+          className="flex flex-col sm:flex-row items-center justify-center gap-6"
+        >
           <motion.button
             className="group relative bg-white text-black px-12 py-4 rounded-full font-bold text-lg tracking-wide overflow-hidden shadow-2xl"
             whileHover={{ scale: 1.02, y: -2 }}
@@ -134,7 +147,6 @@ const HeroSection = () => {
           </motion.button>
         </motion.div>
         <AvatarRow punkAvatars={punkAvatars} />
-
       </motion.div>
     </section>
   );

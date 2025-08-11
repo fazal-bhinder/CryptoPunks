@@ -1,4 +1,4 @@
-import PunkAvatar from './PunkAvatar';
+import PunkAvatar from "./PunkAvatar";
 
 interface Sale {
   punk: string;
